@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 
 function Clock() {
@@ -14,7 +15,9 @@ function Clock() {
 
 	return (
 		<div>
-			<h1>{currentTime}</h1>
+			<h1 className="text-green mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
+				{currentTime}
+			</h1>
 		</div>
 	);
 }
